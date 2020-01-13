@@ -1,0 +1,82 @@
+/* style.css */
+
+/* --- Import Components stylesheets --- */
+@import url("components/product-card.css");
+
+/* [...] */
+
+body {
+    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+/*header*/
+.header {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    min-height: 10vh;
+    justify-content: space-between;
+    color: black;
+    padding: 8px 0px;
+}
+
+.header-links a {
+    color: black;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+.filter {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    padding: 8px 0px 16px 0px;
+}
+
+.filter label {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 16px;
+}
+
+.filter input:active {
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+@media(max-width: 768px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        overflow: hidden;
+    }
+}
+
+@media(max-width: 576px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        overflow: hidden;
+    }
+}
+

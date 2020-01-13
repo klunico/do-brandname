@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='./css/style.css'>
+    <title>Brandname</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h2>Brandname</h2>
+            </div>
+            <div class="header-links">
+                <a href="#">Menu Item 1</a>
+                <a href="#">Menu Item 2</a>
+                <a href="#">Menu Item 3</a>
+                <a href="#">Menu Item 4</a>
+                <a href="#">Menu Item 5</a>
+                <a href="#">Menu Item 6</a>
+            </div>
+        </div>
+        <div class="filter">
+            <!-- <p>Filter:</p> -->
+            <label>Filter:</label>
+            <label id="meat"><input onchange="myMeat()" type="checkbox" checked>Meat</label>
+            <label id="vegi"><input onchange="myVegis()" type="checkbox" checked>Vegetables</label>
+            <label id="fruit"><input onchange="myFruit()" type="checkbox" checked>Fruit</label>
+        </div>
+        <div class="wrapper">
+            <div class="product-card fruit-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Apple</h2>
+                    </div>
+                    <div class="fruit">
+                        <p>Fruit</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"></i><span class="greater-fruit">> </span>More Info</a>
+                </div>
+            </div>
+            <div class="product-card vegi-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Aubergine</h2>
+                    </div>
+                    <div class="vegi">
+                        <p>Gemüse</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"><span class="greater-vegi">> </span>More Info</a>
+                </div>
+            </div>
+            <div class="product-card fruit-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Banana</h2>
+                    </div>
+                    <div class="fruit">
+                        <p>Fruit</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"><span class="greater-fruit">> </span>More Info</a>
+                </div>
+            </div>
+            <div class="product-card meat-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Beef</h2>
+                    </div>
+                    <div class="meat">
+                        <p>Meat</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"><span class="greater-meat">> </span>More Info</a>
+                </div>
+            </div>
+            <div class="product-card vegi-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Broccoli</h2>
+                    </div>
+                    <div class="vegi">
+                        <p>Gemüse</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"><span class="greater-vegi">> </span>More Info</a>
+                </div>
+            </div>
+            <div class="product-card meat-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Chicken</h2>
+                    </div>
+                    <div class="meat">
+                        <p>Meat</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"><span class="greater-meat">> </span>More Info</a>
+                </div>
+            </div>
+            <div class="product-card fruit-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Orange</h2>
+                    </div>
+                    <div class="fruit">
+                        <p>Fruit</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"><span class="greater-fruit">> </span>More Info</a>
+                </div>
+            </div>
+            <div class="product-card vegi-card">
+                <div class="product-card-picture">
+                </div>
+                <div class="product-card-header">
+                    <div>
+                        <h2>Zucchini</h2>
+                    </div>
+                    <div class="vegi">
+                        <p>Gemüse</p>
+                    </div>
+                </div>
+                <div class="product-card-content">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+                <div class="product-card-footer">
+                    <a href="#"><span class="greater-vegi">> </span>More Info</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+        <script src="./mainscript.js"></script>
+</body>
+
+</html>

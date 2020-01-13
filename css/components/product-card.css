@@ -1,0 +1,100 @@
+/* product-card.css */
+
+.product-card {
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.product-card>* {
+    flex: 1 100%;
+}
+
+.product-card h2 {
+    font-size: 16px;
+}
+
+.product-card p {
+    font-size: 12px;
+}
+
+.product-card-picture {
+    background: grey;
+    min-height: 120px;
+    width: 100%;
+}
+
+.product-card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 16px 0px 16px;
+}
+
+.product-card-content {
+    padding: 0px 16px;
+}
+
+.product-card-footer {
+    padding: 4px 16px 24px 16px;
+}
+
+.product-card-footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.greater-fruit {
+    color: orange;
+}
+
+.greater-vegi {
+    color: green;
+}
+
+.greater-meat {
+    color: red;
+}
+
+.fruit p {
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.meat p {
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.vegi p {
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#fruit {
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+}
+
+#meat {
+    background-color: red;
+    border-radius: 50px;
+    color: white;
+    vertical-align: bottom;
+}
+
+#vegi {
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+}
